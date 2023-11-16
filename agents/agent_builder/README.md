@@ -6,7 +6,7 @@ Given the current API, there are just a few primary parameters to work with.
 
 ## Parameters
 
-1. **Instructions:** This is similar to the SYSTEM window of the ChatGPT API or the Custome Instructions in ChatGPT web interface. The latest model seems incredibly responsive to personas, archetypes, and so on. This needs to be dynamically defined at instantiation based upon `context`.
+1. **Instructions:** This is similar to the SYSTEM window of the ChatGPT API or the Custom Instructions in ChatGPT web interface. The latest model seems incredibly responsive to personas, archetypes, and so on. This needs to be dynamically defined at instantiation based upon `context`.
 
 2. **Functions:** These are the "tools" that each agent will have. The first tools are the ability to create and destroy other agents. The second tools are the abilities to make more tools, depending upon `context` and `mission`. Other functions will eventually include API calls to other systems, such as cloud platforms, robots, data access points, and so on.
 
